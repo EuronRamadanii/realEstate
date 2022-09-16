@@ -3,7 +3,7 @@
         <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-md-6 mb-5">
-                    <img class="foot-logo" src="images/logo.png" alt="Logo School">
+                    <img class="foot-logo" src="../assets/images/Edmmo.svg" alt="Logo School">
                 </div>
 
                 <div class="col-md-6">

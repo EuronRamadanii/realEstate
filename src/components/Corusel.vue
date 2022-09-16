@@ -1,5 +1,5 @@
 <template>
-	<section class="banner">
+	<!-- <section class="banner">
 		<div class="owl-carousel owl-theme carousel-sliders">
 			<div class="item" style="background-image: url(../assets/images/about.jpg)">
 				<div class="overlay-bg cover-full"></div>
@@ -30,7 +30,10 @@
 			</div>
 		</div>
 		<div class="custom-nav owl-nav"></div>
-	</section>
+	</section> -->
+	<div>
+		<img src="../assets/images/2ndProject.webp" alt="" style="width: 100%">
+	</div>
 </template>
 
 <script>
