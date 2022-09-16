@@ -6,6 +6,9 @@
 		<Services />
 		<Projects />
 		<Testimonials />
+		<div>
+			<TeamCard />
+		</div>
 		<Contact />
 		<Footer />
 	</div>
@@ -20,6 +23,7 @@ import Projects from "../components/Projects.vue";
 import Testimonials from "../components/Testimonials.vue";
 import Contact from "../components/Contact.vue";
 import Footer from "../components/Footer.vue";
+import TeamCard from "../components/TeamCard.vue";
 export default {
 	name: "Home",
 	components: {
@@ -30,7 +34,8 @@ export default {
 		Projects,
 		Testimonials,
 		Contact,
-		Footer
+		Footer,
+		TeamCard
 	},
 };
 </script>

@@ -2,7 +2,7 @@
 	<nav id="navbar" class="navbar navbar-expand-sm">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="../assets/images/logo.png" alt="logo detail" />
+				<img src="../assets/images/Edmmo.svg" alt="logo detail" />
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
 				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -37,55 +37,8 @@ export default {
 };
 </script>
 
-<!-- <style scoped>
-* {
-	padding: 0;
-	margin: 0;
-	font-family: "Ubuntu", sans-serif;
-	font-weight: 300;
-}
-
+<style scoped>
 .navbar {
-	position: absolute !important;
-	width: 100%;
-	z-index: 2;
+	background-color: #1b2132;
 }
-
-.navbar-brand img {
-	max-width: 240px;
-}
-
-.navbar-nav {
-	margin-left: auto;
-}
-
-.nav-link {
-	font-weight: 500;
-	margin: 0 10px;
-	color: var(--color-light2) !important;
-}
-
-.nav-link:hover {
-	color: var(--color-light) !important;
-}
-
-.navbar-toggler {
-	border-color: #fff !important;
-}
-
-.navbar-toggler-icon {
-	padding: 5px 0;
-}
-
-.navbar-toggler-icon i {
-	color: #fff;
-}
-
-.fixed {
-	position: fixed !important;
-	top: 0;
-	width: 100%;
-	background-color: var(--color-dark);
-	z-index: 4;
-}
-</style> -->
+</style>

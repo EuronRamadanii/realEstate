@@ -60,31 +60,7 @@
 </script>
 
 <style scoped>
-/* .about-content {
-	padding: 30px 20px;
+.section-title {
+	margin-top: 150px;
 }
-.about-content p {
-	line-height: 30px;
-}
-.about-content li {
-	list-style-type: none;
-	position: relative;
-}
-.about-content li h4 {
-	font-size: 1.1em;
-	font-weight: 500;
-}
-.about-content li p {
-	font-size: 0.8em;
-}
-.about-content li i {
-	position: absolute;
-	font-size: 2em;
-	color: var(--color-light);
-}
-
-.about-content li h4,
-.about-content li p {
-	margin-left: 50px;
-} */
 </style>
