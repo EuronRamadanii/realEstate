@@ -4,7 +4,7 @@
             <h1 class="section-title">What’s Our Customer Say</h1>
             <div class="owl-carousel owl-theme carousel-testimonials">
                 <div class="item testimonial">
-                    <img class="transition" src="images/parent1.png" alt="testimonial detail">
+                    <img class="transition" src="../assets/images/parent1.png" alt="testimonial detail">
                     <div class="testimonial-content">
                         <p>Lorem ipsum gravida nibh vel velit auctor aliquetn
                             sollicitudirem quibibendum auci elit cons equat
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="item testimonial">
-                    <img class="transition" src="images/parent2.png" alt="testimonial detail">
+                    <img class="transition" src="../assets/images/parent2.png" alt="testimonial detail">
                     <div class="testimonial-content">
                         <p>Lorem ipsum gravida nibh vel velit auctor aliquetn
                             sollicitudirem quibibendum auci elit cons equat
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="item testimonial">
-                    <img class="transition" src="images/parent3.png" alt="testimonial detail">
+                    <img class="transition" src="../assets/images/parent3.png" alt="testimonial detail">
                     <div class="testimonial-content">
                         <p>Lorem ipsum gravida nibh vel velit auctor aliquetn
                             sollicitudirem quibibendum auci elit cons equat
@@ -43,3 +43,9 @@ export default {
     name: "Testimonials"
 }
 </script>
+
+<style>
+.testimonials {
+    background-image: url('../assets/images/testimonials.jpg');
+}
+</style>
