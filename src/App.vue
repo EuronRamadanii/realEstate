@@ -10,6 +10,9 @@
 import Home from "./views/Home.vue";
 export default {
 	components: { Home },
+	// mounted() {
+	// 	AOS.init()
+	// },
 };
 </script>
 

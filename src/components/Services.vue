@@ -33,7 +33,10 @@
 
 <script>
 export default {
-    name: "Services"
+    name: "Services",
+    // mounted() {
+    //     AOS.init()
+    // },
 }
 </script>
 

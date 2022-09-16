@@ -31,7 +31,8 @@
 		</div>
 		<div class="custom-nav owl-nav"></div>
 	</section> -->
-	<div>
+	<div class="photo">
+		<!-- <h1>Hello</h1> -->
 		<img src="../assets/images/2ndProject.webp" alt="" style="width: 100%">
 	</div>
 </template>
@@ -40,8 +41,14 @@
 // import slider1 from "../assets/images/slide1.jpg";
 </script>
 
-<!-- <style scoped>
-.banner {
+<style scoped>
+/* .photo {
+	background-image: url(../assets/images/2ndProject.webp);
+	height: 10%;
+	width: 10%s;
+} */
+
+/* .banner {
 	position: relative;
 }
 
@@ -83,7 +90,7 @@
 }
 
 /* carousel nav */
-.custom-nav {
+/* .custom-nav {
 	position: absolute;
 	top: 45%;
 	left: 0;
@@ -110,5 +117,5 @@
 
 .owl-next {
 	right: 3%;
-}
-</style> -->
+}  */
+</style> 
