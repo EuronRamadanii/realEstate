@@ -1,7 +1,7 @@
 <template>
 	<div class="home">
 		<Navigation />
-		<Corusel />
+		<!-- <Corusel /> -->
 		<AboutUs />
 		<Services />
 		<Projects />
@@ -13,7 +13,7 @@
 
 <script>
 import Navigation from "../components/Navbar.vue";
-import Corusel from "../components/Corusel.vue";
+// import Corusel from "../components/Corusel.vue";
 import AboutUs from "../components/AboutUs.vue";
 import Services from "../components/Services.vue";
 import Projects from "../components/Projects.vue";
@@ -24,7 +24,7 @@ export default {
 	name: "Home",
 	components: {
 		Navigation,
-		Corusel,
+		// Corusel,
 		AboutUs,
 		Services,
 		Projects,
