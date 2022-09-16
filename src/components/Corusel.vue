@@ -1,10 +1,7 @@
 <template>
 	<section class="banner">
 		<div class="owl-carousel owl-theme carousel-sliders">
-			<div
-				class="item"
-				style="background-image: url(../assets/images/slide1.jpg)"
-			>
+			<div class="item" style="background-image: url(../assets/images/about.jpg)">
 				<div class="overlay-bg cover-full"></div>
 				<div class="container">
 					<div class="caption">
@@ -13,10 +10,7 @@
 					</div>
 				</div>
 			</div>
-			<div
-				class="item"
-				style="background-image: url(../assets/images/slide2.jpg)"
-			>
+			<div class="item" style="background-image: url(../assets/images/about.jpg)">
 				<div class="overlay-bg cover-full"></div>
 				<div class="container">
 					<div class="caption">
@@ -25,10 +19,7 @@
 					</div>
 				</div>
 			</div>
-			<div
-				class="item"
-				style="background-image: url(../assets/images/slide3.jpg)"
-			>
+			<div class="item" style="background-image: url(../assets/images/about.jpg)">
 				<div class="overlay-bg cover-full"></div>
 				<div class="container">
 					<div class="caption">
@@ -46,10 +37,11 @@
 // import slider1 from "../assets/images/slide1.jpg";
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .banner {
 	position: relative;
 }
+
 .banner .owl-theme .item {
 	height: 100vh;
 	background-size: cover;
@@ -61,10 +53,12 @@
 	opacity: 0.6;
 	z-index: 2;
 }
+
 .item .container {
 	position: relative;
 	height: 100%;
 }
+
 .caption {
 	position: absolute;
 	width: 100%;
@@ -74,6 +68,7 @@
 	z-index: 3;
 	text-align: center;
 }
+
 .caption-heading {
 	font-size: 3em;
 	font-weight: 700;
@@ -93,6 +88,7 @@
 	height: auto;
 	z-index: 3;
 }
+
 .owl-prev,
 .owl-next {
 	position: absolute;
@@ -104,10 +100,12 @@
 	padding: 0 8px;
 	font-size: 3em;
 }
+
 .owl-prev {
 	left: 3%;
 }
+
 .owl-next {
 	right: 3%;
 }
-</style>
+</style> -->

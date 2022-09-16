@@ -9,11 +9,7 @@
 							Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem
 							quibibendum auci elit cons equat ipsutis sem nibh id elit.
 						</p>
-						<img
-							class="w-100 p-3"
-							src="../assets/images/about.jpg"
-							alt="School about"
-						/>
+						<img class="w-100 p-3" src="../assets/images/about.jpg" alt="School about" />
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -60,11 +56,11 @@
 </template>
 
 <script>
-    import style from '../assets/style.css'
+    // import style from '../assets/style.css'
 </script>
 
 <style scoped>
-.about-content {
+/* .about-content {
 	padding: 30px 20px;
 }
 .about-content p {
@@ -90,5 +86,5 @@
 .about-content li h4,
 .about-content li p {
 	margin-left: 50px;
-}
+} */
 </style>

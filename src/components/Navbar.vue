@@ -2,14 +2,9 @@
 	<nav id="navbar" class="navbar navbar-expand-sm">
 		<div class="container">
 			<a class="navbar-brand" href="#">
-				<img src="images/logo.png" alt="logo detail" />
+				<img src="../assets/images/logo.png" alt="logo detail" />
 			</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-bs-toggle="collapse"
-				data-bs-target="#navbar-main"
-			>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
 				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbar-main">
@@ -36,47 +31,56 @@
 </template>
 
 <script>
-import style from "../assets/style.css";
+// import style from "../assets/style.css";
 export default {
 	name: "Navbar",
 };
 </script>
 
-<style scoped>
+<!-- <style scoped>
 * {
 	padding: 0;
 	margin: 0;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 }
+
 .navbar {
 	position: absolute !important;
 	width: 100%;
 	z-index: 2;
 }
+
 .navbar-brand img {
 	max-width: 240px;
 }
+
 .navbar-nav {
 	margin-left: auto;
 }
+
 .nav-link {
 	font-weight: 500;
 	margin: 0 10px;
 	color: var(--color-light2) !important;
 }
+
 .nav-link:hover {
 	color: var(--color-light) !important;
 }
+
 .navbar-toggler {
 	border-color: #fff !important;
 }
+
 .navbar-toggler-icon {
 	padding: 5px 0;
 }
+
 .navbar-toggler-icon i {
 	color: #fff;
 }
+
 .fixed {
 	position: fixed !important;
 	top: 0;
@@ -84,4 +88,4 @@ export default {
 	background-color: var(--color-dark);
 	z-index: 4;
 }
-</style>
+</style> -->
